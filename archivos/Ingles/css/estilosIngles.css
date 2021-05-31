@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: 150px;
+    width: auto;
+    background-image: url(../imagenes/cabecera.jpg);
+}
+
+#titulo1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 38px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgb(141, 53, 12);
+}
+
+#lista{
+    padding: 0px;
+    margin: 0px;
+}
+
+#lista li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#lista li a{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(250, 208, 181);
+    text-decoration: none;
+}
+
+#lista li a:hover{
+    color: rgb(80, 33, 7)
+}
+
+#logo{
+    margin-right: 38%;
+    margin-left:5%;
+}
+
+main{
+    background-image: url(../imagenes/fondo1.jpg);
+    height: 540px;
+    width: auto;
+}
+
+#img{
+    padding: 40px 335px;
+}
+
+footer{
+    background-color: rgb(141, 53, 12);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 3px 3px;
+    padding: 12px 25px;
+    text-align: end;
+}

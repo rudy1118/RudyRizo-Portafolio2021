@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: 150px;
+    width: auto;
+    background-image: url(../imagenes/cabecera.jpg);
+}
+
+#titulo1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 38px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    background-color: rgb(141, 53, 12);
+}
+
+#lista{
+    padding: 0px;
+    margin: 0px;
+}
+
+#lista li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#lista li a{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(250, 208, 181);
+    text-decoration: none;
+}
+
+#lista li a:hover{
+    color: rgb(80, 33, 7)
+}
+
+#logo{
+    margin-right: 48%;
+    margin-left:5%;
+}
+
+main{
+    background-image: url(../imagenes/fondo1.jpg);
+    height: 11200px;
+    width: auto;
+}
+
+#introduccion{
+    padding: 50px 0px;
+}
+
+#imagen{
+    margin: 20px 0px;
+}
+
+#fondointroduccion{
+    background-color: rgb(121, 50, 15);
+}
+
+#textointroduccion{
+    padding: 14px 0px;
+}
+
+#titulointroduccion{
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-shadow: rgb(17, 6, 1) 2px 2px;
+    color: rgb(255, 94, 0);
+    padding: 10px 0px;
+}
+
+#textointroduccion2{
+    color: rgb(250, 208, 181);
+    text-align: justify;
+    margin-right: 30px;
+}
+
+#s1temas{
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px;
+}
+
+#fondotema{
+    padding: 10px 0px;
+    margin: 0px 0px;
+}
+
+#temas{
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(117, 27, 0);
+    padding: 5PX 0px;
+}
+
+#pregunta{
+    padding: 20PX 0px;
+    font-family: 'Merriweather', serif;
+    padding-left: 10%;
+    color: rgb(255, 94, 0);
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+}
+
+#respuesta{
+    color: rgb(255, 234, 234);
+    padding: 0px 50px;
+    text-align: justify;
+}
+
+
+#boton{
+    background-color: rgb(255, 94, 0);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin-left: 450px;
+}
+
+#boton a{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(80, 33, 7);
+    text-decoration: none;
+}
+
+#boton a:hover{
+    color:rgb(255, 255, 255);
+}
+
+#img2{
+    padding: 10px 240px;
+}
+
+footer{
+    background-color: rgb(141, 53, 12);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 3px 3px;
+    padding: 12px 25px;
+    text-align: end;
+}

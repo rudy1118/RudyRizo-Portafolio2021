@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    height: 150px;
+    width: auto;
+    background-image: url(../imagenes/cabecera.jpg);
+}
+
+#titulo1{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 38px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(141, 53, 12);
+}
+
+#lista{
+    padding: 0px;
+    margin: 0px;
+}
+
+#lista li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#lista li a{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(250, 208, 181);
+    text-decoration: none;
+}
+
+#lista li a:hover{
+    color: rgb(80, 33, 7)
+}
+
+#logo{
+    margin-right: 22%;
+    margin-left:5%;
+}
+
+main{
+    background-image: url(../imagenes/fondocarrusel.jpg);
+    height: 1900px;
+    width: auto;
+}
+
+section{
+    padding: 75px 0px 50px;
+}
+
+#portafolio{
+    padding: 100px 150px;
+}
+
+#titulo2{
+    font-family: 'Merriweather', serif;
+    padding: 8px 0px;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: rgb(17, 6, 1) 2px 2px;
+    color: rgb(145, 52, 9);
+}
+#texto1{
+    text-align: justify;
+    color: rgb(250, 208, 181);
+}
+ #texto2{
+     padding: 20px 0px;
+    text-align: justify;
+    color: rgb(250, 208, 181);
+ }
+#especialidad{
+    padding: 0px 150px;
+}
+
+#subareas{
+    padding: 50px;
+}
+
+#subarea{
+    background-color: rgb(141, 53, 12);
+}
+
+#textosubarea{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: rgb(250, 208, 181);
+}
+
+footer{
+    background-color: rgb(141, 53, 12);
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 3px 3px;
+    padding: 12px 25px;
+    text-align: end;
+}
